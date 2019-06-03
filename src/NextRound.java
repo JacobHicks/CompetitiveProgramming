@@ -1,3 +1,9 @@
+// Date: 1 June 2019; Sophomore-Junior Summer
+// Type: Problem Set Codeforces Type A
+// Got AC: Yes
+// Number of wrong submissions : 8 (Spam Era)
+// Link: http://codeforces.com/contest/158/problem/A
+
 import java.util.Scanner;
 
 public class NextRound {

@@ -1,3 +1,9 @@
+// Date: 1 June 2019; Sophomore-Junior Summer
+// Type: Problem Set Codeforces Type B
+// Got AC: No
+// Number of wrong submissions : 6
+// Link: http://codeforces.com/contest/1/problem/B
+
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

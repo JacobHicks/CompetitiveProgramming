@@ -1,7 +1,15 @@
+// Date: 3 June 2019; Sophomore-Junior Summer
+// Type: In-Contest Codeforces Type A
+// Got AC: Yes
+// Time taken: 17:17 (slow)
+// Ideal Time Taken: < 0:05
+// Number of wrong submissions : 0
+// Link: http://codeforces.com/contest/1174/problem/A
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Ehab {
+public class ThanosEhab {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int num = in.nextInt() * 2;

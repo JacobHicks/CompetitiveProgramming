@@ -1,3 +1,9 @@
+// Date: 1 June 2019; Sophomore-Junior Summer
+// Type: Problem Set Codeforces Type A
+// Got AC: Yes
+// Number of wrong submissions : 0
+// Link: http://codeforces.com/contest/122/problem/A
+
 import java.util.Scanner;
 
 public class LuckyDiv {

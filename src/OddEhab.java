@@ -1,5 +1,12 @@
+// Date: 3 June 2019; Sophomore-Junior Summer
+// Type: In-Contest Codeforces Type B
+// Got AC: Yes
+// Time taken: 1:34 (way too slow!)
+// Ideal Time Taken: < 0:05
+// Number of wrong submissions: 4
+// Link: http://codeforces.com/contest/1174/problem/B
+
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.Scanner;
 
 public class OddEhab {
@@ -22,6 +29,10 @@ public class OddEhab {
             else System.out.println();
         }
     }
+
+
+
+    /*
 
     public static int partition(int[] arr, int left, int right) {
         int i = left, j = right;
@@ -54,5 +65,6 @@ public class OddEhab {
         if (index < right)
             quickSort(arr, index, right);
     }
+    */
 }
-//RAGE QUIT//
+//I thought it was way harderr grr//
