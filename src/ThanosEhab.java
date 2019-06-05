@@ -1,7 +1,7 @@
 // Date: 3 June 2019; Sophomore-Junior Summer
 // Type: In-Contest Codeforces Type A
 // Got AC: Yes
-// Time taken: 17:17 (slow)
+// Time taken: 0:17 (slow)
 // Ideal Time Taken: < 0:05
 // Number of wrong submissions : 0
 // Link: http://codeforces.com/contest/1174/problem/A
