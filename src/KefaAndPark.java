@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class KefaAndPark {
@@ -7,9 +8,9 @@ public class KefaAndPark {
         int nnodes = in.nextInt();
         int ncatsAllowed = in.nextInt();
         boolean[] hasCat = new boolean[nnodes];
-        ArrayList<ArrayList<Integer>> G = new ArrayList<>();
+        ArrayList<HashSet<Integer>> G = new ArrayList<>();
         for (int i = 0; i < nnodes; i++) {
-            G.add(i, new ArrayList<>());
+            G.add(i, new HashSet<>());
             hasCat[i] = in.nextInt() == 1;
         }
         for (int i = 0; i < nnodes - 1; i++) {
@@ -21,7 +22,7 @@ public class KefaAndPark {
         System.out.println(r(new boolean[nnodes], hasCat, G, 0, 0, ncatsAllowed + 1));
     }
 
-    static int r(boolean[] visited, boolean[] hasCat, ArrayList<ArrayList<Integer>> G, int current, int ncats, int allowedCats) {
+    static int r(boolean[] visited, boolean[] hasCat, ArrayList<HashSet<Integer>> G, int current, int ncats, int allowedCats) {
         if (visited[current]) return 0;
         visited[current] = true;
         if (hasCat[current]) ncats++;
